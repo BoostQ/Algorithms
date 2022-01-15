@@ -1,3 +1,4 @@
+package algorithms;
 import static edu.princeton.cs.algs4.StdOut.printf;
 
 public  class counter {
@@ -15,7 +16,6 @@ public  class counter {
     public String get_id(){
         return this.name;
     }
-@Override
 public String toString(){
         return ""+count+name;
 }
@@ -26,8 +26,7 @@ public String toString(){
     n.increment();
     printf("%d\n",n.tally());
     printf(n.get_id()+"\n");
-// toString 从 Object 中继承
-        printf(n.toString());
+    printf(n.toString());
     }
 }
 
