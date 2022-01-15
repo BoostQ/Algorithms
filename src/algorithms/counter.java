@@ -16,8 +16,9 @@ public  class counter {
     public String get_id(){
         return this.name;
     }
+    @Override
 public String toString(){
-        return ""+count+name;
+        return ""+count+" "+ name;
 }
 //测试模块
     public static void main(String[] args) {
